@@ -1,6 +1,6 @@
-**We're All In This Together!**
+We're All In This Together!
 
-_The social experience of DBC_
+The social experience of DBC
 
 November 23, 2014
 
