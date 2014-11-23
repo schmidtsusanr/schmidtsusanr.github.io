@@ -1,13 +1,13 @@
-Title
+Let's "Git" Started!
 
-Subtitle
+An Introduction to Version Control, Git, and GitHub
 
-Date
+November 22, 2014
 
-Paragraph 1
+During the first week of Dev Bootcamp I was introduced to the world of Git, a version control software. Version control allows a user to save versions of a project throughout its creation with clear indicators as to what was changed each time. These saved versions allow users to revert to previous versions if recent changes are unwanted or cause unpredicted errors. Just as the “undo” and “redo” commands act as shortcuts for Word users, the use of versions allows the user to simply go back to a previous state without having to remember the exact steps that were taken in order to completely backtrack.
 
-Paragraph 2
+When a user saves a version of their work using Git, they add a message that indicates what was changed in that version. The user would only see the most recent version of their work in their repository, but they can view a list of all of their saved versions using a Git command. This list would display the messages that were added describing each saved version, and the user can use different Git commands to revert back to the desired version.  Additionally, Git commands can be used to push the most recent version of the user’s work to the URL of any repositories that are online or in another network.
 
-Paragraph 3
+GitHub is a website that allows users to create online repositories. These repositories can be open to the public or made only available to its creator and any specified users. It’s always beneficial to save anything important in a second location in case anything happens to your computer, but there’s much more to GitHub that serving as a backup version of your work. When working on a project with other developers, each developer can have access to the same working copy of the project. Each developer can work on their personal computer and then push any changes they’ve made to the project to that same working copy stored in GitHub using Git. GitHub will merge the changes that each developer has pushed into the single working copy. The team members can then use Git commands to ensure that they’re working with the latest version of the working copy, which would include the changes made by any of their teammates. This allows teams to seamlessly work together on a project without letting the location, time zone, or general availability of each team member act as a hindrance on the project’s success.
 
-Add as many paragraphs as you want!!!
+GitHub also allows a team to appoint one member as being in charge of pull requests. This means that any changes that have been pushed to the single working copy will first be sent to the appointed member for review. That member would make any necessary revisions to the submitted changes and would decide whether or not to let GitHub merge those changes with the working copy of the project. This allows for an additional review of all work and ensures that the changes made by all team members are in alignment.
