@@ -1,0 +1,93 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+body {
+  font-family: "Century Gothic", sans-serif;
+  color: #2f3738;
+  margin: 0px;
+  background-color: ;
+}
+header {
+  background-color: ;
+  height: 129px;
+}
+header img {
+  padding-left: 50px;
+  padding-right: 30px;
+  height: 120px;
+  width: 120px;
+  float:left;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+header h1 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+header h2 {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+nav {
+  border-top: 2px ridge silver;
+  border-bottom: 2px ridge silver;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #647678;
+}
+nav a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #d5fbff;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #d5fbff;
+  color: #2f3738;
+}
+nav a:visited {
+  text-decoration: none;
+}
+main {
+  padding-left:50px;
+  padding-right: 50px;
+  float: left;
+  height: 485px;
+}
+aside {
+  float: right;
+  border-left: 2px ridge silver;
+  height: 485px;
+  padding-left: 30px;
+  padding-right:30px;
+  background-color: #d5fbff;
+  width: 18%;
+}
+aside a:visited {
+  color: blue;
+}
+aside li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer {
+  border-top: 2px ridge silver;
+  margin-top: 425px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left:50px;
+  clear: both;
+  background-color: #647678;
+  color: #d5fbff;
+}
+footer img {
+  width: 30px;
+  height: 30px;
+}
+footer a {
+  padding: 4px;
+}
