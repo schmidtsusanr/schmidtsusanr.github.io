@@ -5,7 +5,7 @@ body {
   font-family: "Century Gothic", sans-serif;
   color: #2f3738;
   margin: 0px;
-  background-color: ;
+  background-color: #f2f2f2;
 }
 header {
   background-color: ;
@@ -40,10 +40,11 @@ nav {
 nav a {
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #d5fbff;
   text-decoration: none;
+  clear:both;
 }
 nav a:hover {
   background-color: #d5fbff;
@@ -52,13 +53,12 @@ nav a:hover {
 nav a:visited {
   text-decoration: none;
 }
-main {
+#site-intro {
   padding-left:50px;
   padding-right: 50px;
   float: left;
-  height: 485px;
 }
-aside {
+#right-sidebar {
   float: right;
   border-left: 2px ridge silver;
   height: 485px;
@@ -67,16 +67,27 @@ aside {
   background-color: #d5fbff;
   width: 18%;
 }
-aside a:visited {
-  color: blue;
+#right-sidebar a {
+  color: #647678;
+  text-decoration: none;
 }
-aside li {
-  margin-top: 10px;
-  margin-bottom: 10px;
+#right-sidebar a:hover {
+  background-color: #647678;
+  color: #d5fbff;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+#right-sidebar a:visited {
+  text-decoration: none;
+}
+#right-sidebar li {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 footer {
   border-top: 2px ridge silver;
-  margin-top: 425px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left:50px;

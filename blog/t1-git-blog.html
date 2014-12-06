@@ -2,13 +2,36 @@
 <head>
   <title>Your page title here</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+   <link type="text/css" rel="stylesheet" href="../stylesheets/default.css"/>
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheet.css"/>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
-  <!--<img id="header-image" src="../imgs/blog/header-comic.png"/>
-  <h1 id="header-title">My Journey Developing as a Developer</h1>
-  <a href="#" id="home-link">home</a>-->
-  <div id="blog-post">
+  <header>
+  <a href="http://schmidtsusanr.github.io/index.html"><img src="../imgs/blog/header-comic.png"></a>
+  <h1>Website Title</h1>
+  <h2><i>Blog Title</i></h2>
+</header>
+<nav>
+  <a href="http://schmidtsusanr.github.io/index.html">Home</a>
+  <a href="http://schmidtsusanr.github.io/index.html">About Me</a>
+  <a href="http://schmidtsusanr.github.io/index.html">Projects</a>
+  <a href="http://schmidtsusanr.github.io/blog/index.html#">Blog</a>
+  <a href="http://schmidtsusanr.github.io/index.html">Contact Me</a>
+</nav>
+<aside id="browse-topics">
+    <h3>Browse by Topic...</h3>
+    <ul>
+      <li><a href="http://schmidtsusanr.github.io/blog/index.html#">Topic</a></li>
+      <li><a href="http://schmidtsusanr.github.io/blog/index.html#">Topic</a></li>
+      <li><a href="http://schmidtsusanr.github.io/blog/index.html#">Topic</a></li>
+      <li><a href="http://schmidtsusanr.github.io/blog/index.html#">Topic</a></li>
+      <li><a href="http://schmidtsusanr.github.io/blog/index.html#">Topic</a></li>
+      <li><a href="http://schmidtsusanr.github.io/blog/index.html#">Topic</a></li>
+    </ul>
+  </aside>
+  <article>
     <h1>Let's "Git" Started!</h1>
     <h2><i>An Introduction to Version Control, Git, and GitHub</i></h2>
     <h4>November 22, 2014</h4>
@@ -20,13 +43,13 @@
     </p>
     <p>GitHub also allows a team to appoint one member as being in charge of pull requests. This means that any changes that have been pushed to the single working copy will first be sent to the appointed member for review. That member would make any necessary revisions to the submitted changes and would decide whether or not to let GitHub merge those changes with the working copy of the project. This allows for an additional review of all work and ensures that the changes made by all team members are in alignment.
     </p>
-  </div>
-  <!--<div id="more-posts">
-    <h2>View more posts...</h2>
-    <ul>
-      <li><a href="#">first post</a></li>
-      <li><a href="#">second post</a></li>
-      <li><a href="#">third post</a></li>
-    </ul>
-  </div>-->
+  </article>
+
+  <footer>
+    Share:
+      <a href="#"><img src="../imgs/social-media-icons/facebook_001.jpg" alt="Facebook logo"></a>
+      <a href="#"><img src="../imgs/social-media-icons/Twitter_001.jpg" alt="Twitter logo"></a>
+      <a href="#"><img src="../imgs/social-media-icons/Google_Plus_001.jpg" alt="Google+ logo"></a>
+      <a href="#"><img src="../imgs/social-media-icons/email_001.jpg" alt="Email image"></a>
+  </footer>
 </body>
