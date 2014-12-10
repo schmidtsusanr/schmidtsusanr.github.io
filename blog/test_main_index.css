@@ -33,8 +33,6 @@
   #page_container {
     position:absolute;
     right:262px;
-    left:0px;
-    min-height: 450px;
   }
   nav {
     border-top: 2px ridge silver;
@@ -73,12 +71,8 @@
 }
 /*site index*/
   #site-intro {
-    position: static;
     padding-left:50px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    min-height: 450px;
+    padding-right: 50px;
   }
   /*#right-sidebar*/
     #follow_me {

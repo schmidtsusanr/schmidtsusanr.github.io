@@ -33,12 +33,9 @@
   }
 /*blog posts*/
   article {
-    position: static;
-    padding-left:50px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    min-height: 450px;
+    clear: left;
+    padding-left: 50px;
+    padding-right: 26%;
     font-family: Papyrus, fantasy;
   }
   article p::first-letter {
