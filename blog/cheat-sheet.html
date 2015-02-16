@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cheat Sheet: Enumerables</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/cheat-sheet.css">
+  </head>
+
+<body>
+  <header>
+    <h1>Enumerables Cheat Sheet</h1>
+    <h3>February 13, 2015<br>
+    by Susan Schmidt and Tracy Teague</h3>
+  </header>
+
+  <section>
+    <h4>Enumerables</h4>
+      <p>
+       Enumerables give you many useful ways of doing something to every element of a collection object (an array or hash, for instance), which is a very common thing to do when you're building programs and websites.  
+      </p>
+      <p>
+        An enumerable must provide a method #each in its class to yield successive members of the collection. #each calls the given block once for each element in self, passing that element as a parameter. For example:
+        <pre class="prettyprint lang-ruby">
+> [1,2,3].each { |num| print "#{num}! " }
+1! 2! 3! => [1,2,3]
+            </pre>
+        Two of the most commonly used enumerables are #map and #select.
+      </p>
+  </section>
+
+  <section class = "table">
+    <h4>Enumerables: #map and #select</h4>
+      <table>
+        <thead>
+          <tr>
+            <td>Method Name</td>
+            <td>Input</td>
+            <td>Example</td>
+            <td>Output</td>
+            <td>Description</td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>#map</td>
+            <td><i>Takes an array.</i><pre class="prettyprint lang-ruby">
+my_array = [2, 4, 6, 8, 100]
+            </pre></td>
+            <td><pre class="prettyprint lang-ruby">
+> my_array.map{|num| num**2 }
+=> [4,16,36,64,10000]
+            </pre></td>
+            <td><i>returns an array</i></td>
+            <td><i>(Same as #collect)<br>This performs a specified action on each element and returns the transformed result in a new array.</i></td>
+          </tr>
+          <tr>
+            <td>#select</td>
+            <td>2</td>
+            <td><pre class="prettyprint lang-ruby">
+            </pre></td>
+            <td>4</td>
+            <td>5</td>
+          </tr>
+        </tbody>
+      </table>
+  </section>
+
+  <sectionn class = "table">
+    <h4>Additional Methods</h4>
+      <table>
+        <thead>
+          <tr>
+            <td>Method Name</td>
+            <td>Description</td>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+          </tr>
+
+        </tbody>
+      </table>
+  </section>
+
+  <section>
+   <h4>Additional Resources</h4>
+      <p>
+        <a href:"http://ruby-doc.org/core-2.2.0/Enumerable.html">Ruby Doc on Enumberables</a><br>
+        <a href:"http://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods">Great blog entry on enumerables</a><br>
+        <a href:"LINK">Title</a><br>
+      </p>
+  </section>
+</body>
+</html>

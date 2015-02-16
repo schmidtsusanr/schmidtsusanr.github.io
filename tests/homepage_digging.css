@@ -1,0 +1,69 @@
+body {
+	font-family: Didot, 'Didot LT STD', 'Hoefler Text' , Garamond, 'Times New Roman', serif;
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+}
+
+#social_media {
+	float: right;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.container {
+	position: relative;
+	height: 90%;
+}
+header {
+	font-size: 3em;
+	border-bottom-style: groove;
+	padding-top: .25em;
+	padding-bottom: .25em;
+}
+
+#site_nav {
+	float: left;
+	width: 30%;
+	height: 80%;
+	padding-top: 1em;
+}
+#site_nav li{
+	list-style-type: none;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 1.5em;
+}
+
+#digging {
+	float: left;
+	padding-top: 2.25em;
+}
+
+#digging img{
+	height: 75%;
+}
+
+#digging figcaption {
+	font-size: .75em;
+
+}
+
+#quote {
+	font-size: 1.25em;
+	padding-left: 2em;
+	padding-right: 2em;
+	height: 10%;
+	float: left;
+	clear: right;
+}
+
+#keyboard {
+	font-size: 2em;
+	width: 100%;
+	text-align: right;
+	height: 10%;
+}
+footer {
+	height: 5%;
+	border-top-style: groove;
+}
